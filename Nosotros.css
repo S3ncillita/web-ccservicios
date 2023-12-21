@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-image: url('fondos/Nosotros.jpg');
+    background-size: cover;
+    align-items: center;
+
+
+}
+
+header {
+    display: flex;
+    background-color: coral;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+nav a {
+    font-weight: 1000;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+
+}
+
+nav a:hover {
+    color: black;
+}
+
+.Descripcion {
+
+   max-width: 100%;
+    height: 300px;
+    margin: 0px 50px;
+    text-align: center;
+}
+
+.pie {
+    position: absolute;
+    width: 100%;
+    background-color: coral;
+    margin-top: 28%;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+
+
+}
+
+h2 {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fb {
+    background-color: blue;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    height: 10%;
+    margin: 10px 5px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 10px;
+    align-items: center;
+
+
+
+}
+
+.fb:hover i {
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.it {
+    background: rgb(255, 0, 179);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 10%;
+    margin: 10px 5px;
+}
+
+.it:hover i {
+    color: darkblue;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.wsp {
+    display: flex;
+
+    background: green;
+    padding: 10px 12px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    align-content: center;
+
+}
+
+.wsp:hover i {
+    color: darkblue;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    background: 6115b9097c5f6bb7rgb(0, 47, 255);
+
+}
+
+.derechos p {
+    font-weight: bold;
+    color: black;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.copyraight {
+    font-size: 20px;
+}
+
+.redes h2 {
+    color: black;
+}
+
+.redes i {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+p{
+    font-size: 20px;
+}
+.pie{
+    bottom: 0;
+}
+h2{
+   
+    font-size: 18px;
+}
+h1{
+    font-size: 15px;
+}
+a{
+   
+    font-size: 6px;
+}
+}
