@@ -5,16 +5,15 @@ box-sizing: border-box;
 }
 
 body {
-    background-image: url('fondos/Nosotros.jpg');
     background-size: cover;
     align-items: center;
-
+background: linear-gradient(30deg,rgb(100,241,84),rgb(92,92,229),rgb(111,30,30));
 
 }
 
 header {
     display: flex;
-    background-color: coral;
+background: linear-gradient(30deg,rgb(100,241,84),rgb(92,92,229),rgb(111,30,30));
     align-items: center;
     padding: 10px 10px;
     justify-content: space-between;
@@ -22,7 +21,7 @@ header {
 
 h1 {
     display: flex;
-    color: white;
+    color: black;
     margin: 10px;
 }
 
@@ -59,7 +58,7 @@ nav a:hover {
 .pie {
     position: absolute;
     width: 100%;
-    background-color: coral;
+    background-color:linear-gradient(30deg,rgb(100,241,84),rgb(92,92,229),rgb(111,30,30));
     margin-top: 28%;
     color: white;
     font-size: 14px;
@@ -97,6 +96,7 @@ h2 {
 
 }
 
+
 .fb:hover i {
     color: white;
     transition: 0.3s;
@@ -106,7 +106,7 @@ h2 {
 .it {
     background: rgb(255, 0, 179);
     padding: 10px;
-    margin-top: 10px;
+  
     border-radius: 10px;
     height: 10%;
     margin: 10px 5px;
@@ -120,7 +120,6 @@ h2 {
 
 .wsp {
     display: flex;
-
     background: green;
     padding: 10px 12px;
     margin: 10px 5px;
@@ -150,8 +149,6 @@ h2 {
     justify-content: center;
     padding: 10px;
     font-size: 15px;
-    background: 6115b9097c5f6bb7rgb(0, 47, 255);
-
 }
 
 .derechos p {
@@ -182,17 +179,20 @@ p {
     color: white;
     font-size: 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 610px) {
+ 
 p{
     font-size: 20px;
+    
 }
 .pie{
+    
     bottom: 0;
 }
 h2{
-   
-    font-size: 18px;
+    text-shadow: 1px 1px white;
 }
+
 h1{
     font-size: 15px;
 }
@@ -200,4 +200,28 @@ a{
    
     font-size: 6px;
 }
+.header{
+   
+   margin-bottom: 13px;
+    height: 10px;
+}
+
+.redes h2{
+    
+    padding-top: 12px;
+}
+
+.redes i{
+    font-size: 15px;
+}
+.derechos{
+   
+    margin-top: 5px;
+   
+}
+.copyraight{
+    font-size: 13px;
+  
+}
+
 }

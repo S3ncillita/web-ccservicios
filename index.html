@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCServicios y Novedades</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
@@ -24,26 +26,23 @@
     </header>
 
     <h2 class="title">VESTIDOS</h2>
-    <div class="container">
-        <spa class="slider" id="slider1"></spa>
-        <spa class="slider" id="slider2"></spa>
-        <spa class="slider" id="slider3"></spa>
-        <spa class="slider" id="slider4"></spa>
 
-        <div class="imgContainer">
-            <div class="slide_div" id="slide1" >
-                <img src="Vestidos/1.jpeg" alt="" class="img" id="img1">
-                <a href="#slider1" class="button" id="button1"></a>
-            </div>
-            <div class="slide_div" id="slide2" >
-                <img src="Vestidos/2.jpeg" alt="" class="img" id="img2">
-                <a href="#slider2" class="button" id="button2"></a>
-            </div>
-            <div class="slide_div" id="slide3" >
-                <img src="Vestidos/3.jpeg" alt="" class="img" id="img3">
-                <a href="#slider3" class="button" id="button3"></a>
-            </div>
-        </div>
+    <div class="container-images">
+      <div class="vestidos">
+        <img class="images" src="Vestidos/1.jpeg" alt="">
+      </div>
+
+      <div   class="vestidos">
+      <img class="images"src="Vestidos/2.jpeg" alt="">
+    </div>
+    <div class="vestidos">
+        <img class="images" src="Vestidos/3.jpeg" alt="">
+      </div>
+      <div class="vestidos">
+        <img class="images" src="Vestidos/4.jpeg" alt="">
+      </div>
+     
+      
     </div>
     <section class="Carteleria">
         <div class="main">
@@ -59,19 +58,19 @@
                     <p>Accesorios</p>
                 </div>
                 <div id="items-categorias">
-                    <img id="categorias" src="imagenes/Parlante kolke.png" alt="Case Celulares">
+                    <img id="categorias" src="imagenes/Parlante kolke.png" alt="Parlante">
                     <p>Parlantes</p>
                 </div>
                 <div id="items-categorias">
-                    <img id="categorias" src="imagenes/lencerias.png" alt="Case Celulares">
+                    <img id="categorias" src="imagenes/lencerias.png" alt="Lencerias">
                     <p>Lencerias</p>
                 </div>
                 <div id="items-categorias">
-                    <img id="categorias" src="imagenes/blusas.webp" alt="Case Celulares">
+                    <img id="categorias" src="imagenes/blusas.webp" alt="Blusas">
                     <p>Blusas</p>
                 </div>
                 <div id="items-categorias">
-                    <img id="categorias" src="imagenes/jeans.jpg" alt="Case Celulares">
+                    <img id="categorias" src="imagenes/jeans.jpg" alt="Jeans">
                     <p>Jeans Damas y Caballeros</p>
                 </div>
             </div>
@@ -79,9 +78,9 @@
             <div class="Clasificacion">
                 <div id="aside">
                     <ul>
-                        <H2>MAS SOLICITADOS</H2>
+                        <H2 class="Solicitados">MAS SOLICITADOS</H2>
                         <p id="MasSolicitados">Accesorios</p>
-                        <p id="MasSolicitados">Electronica</p>
+                        <p id="MasSolicitados">Hoppies</p>
                         <p id="MasSolicitados">Lencerias</p>
                         <p id="MasSolicitados">Vestidos</p>
                     </ul>
@@ -104,7 +103,8 @@
                     <span class="fb"><i class="fa-brands fa-facebook"></i></span>
 
                     <span class="it"> <i class="fa-brands fa-instagram"></i></span>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B595992581641&text&type=phone_number&app_absent=0"
+                    <a class="sociales"
+                        href="https://api.whatsapp.com/send/?phone=%2B595992581641&text&type=phone_number&app_absent=0"
                         target="_blank"><span class="wsp"> <i class="fa-brands fa-whatsapp"></i></span></a>
 
                 </div>
@@ -115,9 +115,10 @@
                 <p>Privacy Policy</p>
             </div>
 
+
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="script.js"></script>
+    </section>
+
 
 </body>
 
