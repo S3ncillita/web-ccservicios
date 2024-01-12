@@ -18,11 +18,15 @@ background: linear-gradient(30deg,rgb(100,241,84),rgb(92,92,229),rgb(111,30,30))
     padding: 10px 10px;
     justify-content: space-between;
 }
-
+.link{
+    color: black;
+    text-shadow: 1px 1px white;
+}
 h1 {
     display: flex;
     color: black;
     margin: 10px;
+    text-shadow: 1px 1px white;
 }
 
 h2 {
@@ -44,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
+    color: white;
 }
 
 .Descripcion {
@@ -155,10 +159,16 @@ h2 {
     font-weight: bold;
     color: black;
 }
-
+.header{
+ 
+    width: 100%;
+    height: 70px;
+    padding-top: 2%;
+}
 .redes {
     display: flex;
     justify-content: center;
+    margin: 10px 0;
 
 }
 
@@ -181,9 +191,25 @@ p {
 }
 @media (max-width: 610px) {
  
-p{
+.us{
     font-size: 20px;
+    color: black;
+    width: 100%;
+
     
+}
+nav{
+   
+    width: 100px; 
+}
+
+.SobreNosotros{
+ 
+    width: 100%;
+}
+.Descripcion{
+    width: 100%;
+    margin-left: 0;
 }
 .pie{
     
@@ -194,7 +220,7 @@ h2{
 }
 
 h1{
-    font-size: 15px;
+    font-size: 25px;
 }
 a{
    
