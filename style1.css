@@ -402,21 +402,22 @@ nav:hover {
         background-repeat: no-repeat;
         width: 100%;
         height: 844px;
+       
     }
-
+/*fater of the container-images*/
     .container-images {
         width: 100%;
         height: 800px;
-       
-    
 
+ 
     }
-    
-    .images {
-        width: 120px;
+   
+    .images{
+        width: 100px;
         height: 150px;
-        margin-left: 27px;
+        margin-left: 50px;
     }
+   
 
     .Carteleria {
         position: absolute;
