@@ -189,7 +189,7 @@ p {
     color: white;
     font-size: 20px;
 }
-@media (max-width: 610px) {
+@media screen and (max-width: 500px) {
  
 .us{
     font-size: 20px;
@@ -218,7 +218,10 @@ nav{
 h2{
     text-shadow: 1px 1px white;
 }
-
+.titleRedes {
+    color: black;
+    font-size: 20px;
+}
 h1{
     font-size: 25px;
 }
@@ -226,28 +229,35 @@ a{
    
     font-size: 6px;
 }
-.header{
+
+.pie{
+
    
-   margin-bottom: 13px;
-    height: 10px;
+}    
+.header {
+    border: 1px solid red;
+    width: 100%;
+    height: 100px;
 }
 
-.redes h2{
-    
+.redes h2 {
+
     padding-top: 12px;
 }
 
-.redes i{
+.redes i {
     font-size: 15px;
 }
-.derechos{
-   
+
+.derechos {
+
     margin-top: 5px;
-   
+
 }
-.copyraight{
+
+.copyraight {
     font-size: 13px;
-  
+
 }
 
 }
