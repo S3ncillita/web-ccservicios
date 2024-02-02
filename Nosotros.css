@@ -103,7 +103,7 @@ h2 {
 
 .fb:hover i {
     color: white;
-    transition: 0.3s;
+    transition: 0.1s;
     transform: scale(1.1);
 }
 
@@ -235,7 +235,6 @@ a{
    
 }    
 .header {
-    border: 1px solid red;
     width: 100%;
     height: 100px;
 }

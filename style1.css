@@ -247,8 +247,7 @@ nav:hover {
 
 #categorias:hover {
     color: blue;
-
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 
@@ -320,7 +319,7 @@ nav:hover {
     text-decoration: none;
 }
 .show:hover{
-    background-color: white;
+   color: white;
     }
 @media screen and (max-width:400px) {
     body {
@@ -472,14 +471,14 @@ nav:hover {
 
     }
    .show{
-       color: white;
         font-size: 10px;
         width: 50px;
         height: 10px;
     }
-   a.show:hover{
-   background-color: white;
-   }
+    .show:hover{
+        color: white;
+         }
+  
     .wsp:hover{
         color: black;
     }
